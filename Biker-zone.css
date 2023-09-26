@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Itim', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.for-middle {
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+/* for first part. */
+.first-part {
+    background-color: #264653;
+    color: white;
+}
+
+.first-part .row .col-md-6 {
+    margin-top: 30px;
+
+}
+
+
+
+/* navbar start from here */
+
+.first-part nav ul li {
+    padding-left: 10px;
+}
+
+.first-part nav ul li .login {
+    width: 100px;
+    background-color: #E76F51;
+    text-align: center;
+    border-radius: 10px;
+}
+
+nav a {
+    font-weight: bold;
+}
+
+/* navbar end here  */
+
+
+/* intro start from here. */
+.col-md-6 .left {
+    margin-top: 50px;
+}
+
+
+.first-part .second {
+    margin-bottom: 50px;
+}
+
+.first-part h2 {
+    font-weight: bold;
+}
+
+.first-part .main {
+    padding-bottom: 80px;
+}
+
+
+.main button {
+    background-color: #E76F51;
+    color: white;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+
+}
+
+/* Intro end here. */
+
+
+/* second part start from here. */
+.second-part .row .col-md-4 img {
+    width: 280px;
+    
+
+}
+
+
+.second-part .mid {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.second-part .mid p {
+    color: #E76F51;
+}
+
+.second-part .mid hr {
+    color: #E76F51;
+    width: 170px;
+    margin: 0 auto;
+    margin-top: -10px;
+    border: 1.5px solid;
+    margin-bottom: 70px;
+}
+
+/* Third part start from here. */
+
+.Third-part h2 {
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+
+
+.Third-part .card img {
+    padding: 15px;
+}
+
+.Third-part .card-footer {
+    background-color: white;
+    border-top: none;
+}
+
+.Third-part button {
+    border: none;
+    width: 130px;
+    border: #E76F51 1px solid;
+    background-color: white;
+    color: #E76F51;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.Third-part button:hover {
+    background-color: #E76F51;
+    color: white;
+}
+
+
+/* fourth part start from here. */
+
+.fourth-part h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+span {
+    color: #E76F51;
+}
+
+
+.fourth-part .card img {
+    width: 145px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.fourth-part .card p {
+    text-align: center;
+}
+
+.fourth-part .card {
+    padding: 15px;
+}
+
+.fourth-part .card-footer {
+    border-top: none;
+    background-color: white;
+}
+
+.fourth-part .card-footer img {
+    width: 20px;
+    margin: 0;
+}
+
+.fourth-part .card-footer .star {
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.fourth-part .card-footer h5 {
+    text-align: center;
+    color: #23A6F0;
+    margin-top: 10px;
+}
+
+
+/* Fifth part start from here. */
+
+.Fifth-part h2 {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.Fifth-part img {
+    width: 400px;
+}
+
+.Fifth-part .box {
+    height: 60px;
+    border: 1px solid gray;
+    overflow-anchor;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/* Accordion start from here. */
+
+#accordion li {
+
+    list-style-type: none;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    /* background-color: gray ; */
+    border: 1px solid grey;
+
+}
+
+
+#accordion li label {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#accordion li .content p {
+    opacity: 0.5;
+}
+
+
+
+#accordion li label span {
+    color: black;
+    font-size: 22px;
+    transform: rotate(90deg);
+}
+
+#accordion label+input[type="radio"] {
+    display: none;
+}
+
+#accordion .content {
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+
+}
+
+#accordion label+input[type="radio"]:checked+.content {
+    max-height: 400px;
+}
+
+/* sixth part start from here. */
+
+.Sixth-part {
+    background-color: black;
+    color: white;
+    padding: 50px 0 50px 0;
+
+}
+
+.Sixth-part h5 {
+    margin-right: 15px;
+
+}
+
+.Sixth-part .col-md-9
+{
+    margin-top: 50px;
+}
+
+.Sixth-part p {
+    margin-top: 30px;
+}
+
+.Sixth-part .col-md-3 img {
+    width: 100px;
+}
+
+.Sixth-part .col-md-3 div {
+    margin: 20px;
+}
+
+.Sixth-part .col-md-9 .two{
+    display: flex;
+    flex-wrap: wrap;
+}
